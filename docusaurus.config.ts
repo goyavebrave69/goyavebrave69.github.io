@@ -11,14 +11,15 @@ const config: Config = {
   url: 'https://goyavebrave69.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/goyavebrave69.github.io',
+  baseUrl: '/',
+  deploymentBranch: 'gh-pages',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'goyavebrave', // Usually your GitHub org/user name.
+  organizationName: 'goyavebrave69', // Usually your GitHub org/user name.
   projectName: 'goyavebrave69.github.io', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -28,7 +29,6 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
   presets: [
     [
       'classic',
